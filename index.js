@@ -1,23 +1,23 @@
 //////////////////////////////////////////////////////////
 
-// going to add a modal-box
+// modal-box ** not test code **
 
-// let clickModal = document.querySelector(".click-modal");
-// let clickIcon = document.querySelector(".click-icon");
-// let modal = document.querySelector(".modal")
+let clickTitle = document.querySelector(".title_div");
+let clickModal = document.querySelector(".modal");
+let modal = document.querySelector(".modal")
 
-// function toggleModal() {
-//   modal.classList.toggle("show-modal");
-// }
+function toggleModal() {
+  modal.classList.toggle("show-modal");
+}
 
-// clickIcon.addEventListener("click", toggleModal);
-// clickModal.addEventListener("click", toggleModal);
-
-//////////////////////////////////////////////////////////
+clickModal.addEventListener("click", toggleModal);
+clickTitle.addEventListener("click", toggleModal);
 
 //////////////////////////////////////////////////////////
 
-// paractice code 
+//////////////////////////////////////////////////////////
+
+// test code 
 
 const domainArray = ["eythankramm.com","eythankramm.org", "eythankramm.info", "eythankramm.net", "eythankramm.biz", "eythankramm.us", "eygthankramm.com", "eythankr.com", "youngllpthankramm.com", "eythankramm.online", "eygthankramm.org", "eygthankramm.info", "eygthankramm.net", "eythankramm.club", "eygthankramm.biz", "youngllpthankramm.org", "youngllpthankramm.net", "youngllpthankramm.info"]
 let newDomainArray = [];
